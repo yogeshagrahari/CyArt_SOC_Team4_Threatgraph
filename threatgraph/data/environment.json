@@ -1,0 +1,4095 @@
+{
+  "assets": [
+    {
+      "id": "asset-000",
+      "hostname": "web01.corp.local",
+      "ip": "10.0.37.211",
+      "os": "Amazon Linux 2",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": true,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-001",
+      "hostname": "app01.corp.local",
+      "ip": "10.1.19.23",
+      "os": "Windows 10",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-002",
+      "hostname": "db01.corp.local",
+      "ip": "10.3.30.212",
+      "os": "Amazon Linux 2",
+      "environment": "prod",
+      "criticality": 5,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-003",
+      "hostname": "host003.corp.local",
+      "ip": "10.3.25.250",
+      "os": "Windows Server 2019",
+      "environment": "prod",
+      "criticality": 5,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-004",
+      "hostname": "host004.corp.local",
+      "ip": "10.3.73.139",
+      "os": "Ubuntu 22.04",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": "aws",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-005",
+      "hostname": "host005.corp.local",
+      "ip": "10.1.190.25",
+      "os": "Amazon Linux 2",
+      "environment": "prod",
+      "criticality": 2,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-006",
+      "hostname": "host006.corp.local",
+      "ip": "10.3.160.120",
+      "os": "Amazon Linux 2",
+      "environment": "prod",
+      "criticality": 4,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-007",
+      "hostname": "host007.corp.local",
+      "ip": "10.1.41.148",
+      "os": "RHEL 8",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-008",
+      "hostname": "host008.corp.local",
+      "ip": "10.0.60.132",
+      "os": "Windows 10",
+      "environment": "dev",
+      "criticality": 2,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-009",
+      "hostname": "host009.corp.local",
+      "ip": "10.3.20.247",
+      "os": "Ubuntu 22.04",
+      "environment": "prod",
+      "criticality": 4,
+      "internet_facing": false,
+      "cloud": "aws",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-010",
+      "hostname": "host010.corp.local",
+      "ip": "10.3.233.18",
+      "os": "Ubuntu 22.04",
+      "environment": "staging",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": "aws",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-011",
+      "hostname": "host011.corp.local",
+      "ip": "10.2.228.73",
+      "os": "Windows 10",
+      "environment": "prod",
+      "criticality": 2,
+      "internet_facing": false,
+      "cloud": "aws",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-012",
+      "hostname": "host012.corp.local",
+      "ip": "10.1.59.127",
+      "os": "Ubuntu 22.04",
+      "environment": "dev",
+      "criticality": 2,
+      "internet_facing": true,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-013",
+      "hostname": "host013.corp.local",
+      "ip": "10.3.200.235",
+      "os": "Windows 10",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-014",
+      "hostname": "host014.corp.local",
+      "ip": "10.2.70.210",
+      "os": "Windows 10",
+      "environment": "dev",
+      "criticality": 3,
+      "internet_facing": true,
+      "cloud": "aws",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-015",
+      "hostname": "host015.corp.local",
+      "ip": "10.3.118.39",
+      "os": "Ubuntu 22.04",
+      "environment": "staging",
+      "criticality": 4,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-016",
+      "hostname": "host016.corp.local",
+      "ip": "10.3.93.68",
+      "os": "RHEL 8",
+      "environment": "prod",
+      "criticality": 2,
+      "internet_facing": true,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-017",
+      "hostname": "host017.corp.local",
+      "ip": "10.2.64.177",
+      "os": "Amazon Linux 2",
+      "environment": "staging",
+      "criticality": 3,
+      "internet_facing": true,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-018",
+      "hostname": "host018.corp.local",
+      "ip": "10.3.201.27",
+      "os": "Windows 10",
+      "environment": "dev",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-019",
+      "hostname": "host019.corp.local",
+      "ip": "10.3.83.29",
+      "os": "RHEL 8",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": true,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-020",
+      "hostname": "host020.corp.local",
+      "ip": "10.0.186.158",
+      "os": "Ubuntu 22.04",
+      "environment": "prod",
+      "criticality": 5,
+      "internet_facing": true,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-021",
+      "hostname": "host021.corp.local",
+      "ip": "10.2.177.155",
+      "os": "RHEL 8",
+      "environment": "dev",
+      "criticality": 2,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-022",
+      "hostname": "host022.corp.local",
+      "ip": "10.3.247.80",
+      "os": "Ubuntu 22.04",
+      "environment": "dev",
+      "criticality": 3,
+      "internet_facing": true,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-023",
+      "hostname": "host023.corp.local",
+      "ip": "10.2.245.213",
+      "os": "Windows Server 2019",
+      "environment": "staging",
+      "criticality": 4,
+      "internet_facing": true,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-024",
+      "hostname": "host024.corp.local",
+      "ip": "10.0.152.251",
+      "os": "Ubuntu 22.04",
+      "environment": "staging",
+      "criticality": 2,
+      "internet_facing": false,
+      "cloud": "aws",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-025",
+      "hostname": "host025.corp.local",
+      "ip": "10.1.168.163",
+      "os": "Windows Server 2019",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-026",
+      "hostname": "host026.corp.local",
+      "ip": "10.1.102.133",
+      "os": "Windows 10",
+      "environment": "dev",
+      "criticality": 4,
+      "internet_facing": false,
+      "cloud": "aws",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-027",
+      "hostname": "host027.corp.local",
+      "ip": "10.3.132.50",
+      "os": "Amazon Linux 2",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": "aws",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-028",
+      "hostname": "host028.corp.local",
+      "ip": "10.0.112.27",
+      "os": "Windows Server 2019",
+      "environment": "staging",
+      "criticality": 2,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-029",
+      "hostname": "host029.corp.local",
+      "ip": "10.0.245.233",
+      "os": "RHEL 8",
+      "environment": "prod",
+      "criticality": 4,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-030",
+      "hostname": "host030.corp.local",
+      "ip": "10.1.244.228",
+      "os": "Windows Server 2019",
+      "environment": "prod",
+      "criticality": 4,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-031",
+      "hostname": "host031.corp.local",
+      "ip": "10.3.237.103",
+      "os": "Ubuntu 22.04",
+      "environment": "staging",
+      "criticality": 1,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-032",
+      "hostname": "host032.corp.local",
+      "ip": "10.1.238.207",
+      "os": "Windows Server 2019",
+      "environment": "prod",
+      "criticality": 2,
+      "internet_facing": true,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-033",
+      "hostname": "host033.corp.local",
+      "ip": "10.1.10.4",
+      "os": "Ubuntu 22.04",
+      "environment": "staging",
+      "criticality": 2,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-034",
+      "hostname": "host034.corp.local",
+      "ip": "10.0.128.55",
+      "os": "RHEL 8",
+      "environment": "prod",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-035",
+      "hostname": "host035.corp.local",
+      "ip": "10.3.67.16",
+      "os": "RHEL 8",
+      "environment": "staging",
+      "criticality": 2,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-036",
+      "hostname": "host036.corp.local",
+      "ip": "10.1.77.135",
+      "os": "Amazon Linux 2",
+      "environment": "dev",
+      "criticality": 3,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-037",
+      "hostname": "host037.corp.local",
+      "ip": "10.0.76.45",
+      "os": "Windows Server 2019",
+      "environment": "prod",
+      "criticality": 5,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-038",
+      "hostname": "host038.corp.local",
+      "ip": "10.0.166.175",
+      "os": "Amazon Linux 2",
+      "environment": "prod",
+      "criticality": 5,
+      "internet_facing": false,
+      "cloud": "azure",
+      "owner_user_id": null,
+      "kind": "asset"
+    },
+    {
+      "id": "asset-039",
+      "hostname": "host039.corp.local",
+      "ip": "10.0.127.49",
+      "os": "RHEL 8",
+      "environment": "prod",
+      "criticality": 5,
+      "internet_facing": false,
+      "cloud": null,
+      "owner_user_id": null,
+      "kind": "asset"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-000",
+      "name": "da_admin",
+      "role": "sysadmin",
+      "department": "Sales",
+      "privilege": "domain_admin",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-001",
+      "name": "user001",
+      "role": "service",
+      "department": "IT",
+      "privilege": "standard",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-002",
+      "name": "user002",
+      "role": "manager",
+      "department": "HR",
+      "privilege": "admin",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-003",
+      "name": "user003",
+      "role": "service",
+      "department": "HR",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-004",
+      "name": "user004",
+      "role": "manager",
+      "department": "Finance",
+      "privilege": "privileged",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-005",
+      "name": "user005",
+      "role": "manager",
+      "department": "Finance",
+      "privilege": "standard",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-006",
+      "name": "user006",
+      "role": "service",
+      "department": "Engineering",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-007",
+      "name": "user007",
+      "role": "developer",
+      "department": "Security",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-008",
+      "name": "user008",
+      "role": "sysadmin",
+      "department": "Security",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-009",
+      "name": "user009",
+      "role": "sysadmin",
+      "department": "Security",
+      "privilege": "standard",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-010",
+      "name": "user010",
+      "role": "sysadmin",
+      "department": "IT",
+      "privilege": "standard",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-011",
+      "name": "user011",
+      "role": "sysadmin",
+      "department": "Security",
+      "privilege": "privileged",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-012",
+      "name": "user012",
+      "role": "service",
+      "department": "Finance",
+      "privilege": "privileged",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-013",
+      "name": "user013",
+      "role": "sysadmin",
+      "department": "Security",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-014",
+      "name": "user014",
+      "role": "service",
+      "department": "IT",
+      "privilege": "admin",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-015",
+      "name": "user015",
+      "role": "analyst",
+      "department": "Engineering",
+      "privilege": "standard",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-016",
+      "name": "user016",
+      "role": "analyst",
+      "department": "HR",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-017",
+      "name": "user017",
+      "role": "service",
+      "department": "IT",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-018",
+      "name": "user018",
+      "role": "manager",
+      "department": "Engineering",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-019",
+      "name": "user019",
+      "role": "developer",
+      "department": "Engineering",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-020",
+      "name": "user020",
+      "role": "sysadmin",
+      "department": "IT",
+      "privilege": "standard",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-021",
+      "name": "user021",
+      "role": "analyst",
+      "department": "Sales",
+      "privilege": "privileged",
+      "mfa_enabled": true,
+      "kind": "user"
+    },
+    {
+      "id": "user-022",
+      "name": "user022",
+      "role": "manager",
+      "department": "Sales",
+      "privilege": "admin",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-023",
+      "name": "user023",
+      "role": "analyst",
+      "department": "Engineering",
+      "privilege": "standard",
+      "mfa_enabled": false,
+      "kind": "user"
+    },
+    {
+      "id": "user-024",
+      "name": "user024",
+      "role": "service",
+      "department": "Engineering",
+      "privilege": "standard",
+      "mfa_enabled": true,
+      "kind": "user"
+    }
+  ],
+  "credentials": [
+    {
+      "id": "cred-user-000-0",
+      "cred_type": "password",
+      "user_id": "user-000",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-001-0",
+      "cred_type": "password",
+      "user_id": "user-001",
+      "strength": "weak",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-002-0",
+      "cred_type": "password",
+      "user_id": "user-002",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-003-0",
+      "cred_type": "ssh_key",
+      "user_id": "user-003",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-004-0",
+      "cred_type": "password",
+      "user_id": "user-004",
+      "strength": "weak",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-005-0",
+      "cred_type": "password",
+      "user_id": "user-005",
+      "strength": "weak",
+      "leaked": true,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-005-1",
+      "cred_type": "password",
+      "user_id": "user-005",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-006-0",
+      "cred_type": "password",
+      "user_id": "user-006",
+      "strength": "medium",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-007-0",
+      "cred_type": "ssh_key",
+      "user_id": "user-007",
+      "strength": "medium",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-008-0",
+      "cred_type": "api_token",
+      "user_id": "user-008",
+      "strength": "medium",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-009-0",
+      "cred_type": "ssh_key",
+      "user_id": "user-009",
+      "strength": "weak",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-010-0",
+      "cred_type": "password",
+      "user_id": "user-010",
+      "strength": "weak",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-011-0",
+      "cred_type": "password",
+      "user_id": "user-011",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-012-0",
+      "cred_type": "api_token",
+      "user_id": "user-012",
+      "strength": "weak",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-013-0",
+      "cred_type": "api_token",
+      "user_id": "user-013",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-013-1",
+      "cred_type": "api_token",
+      "user_id": "user-013",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-014-0",
+      "cred_type": "password",
+      "user_id": "user-014",
+      "strength": "medium",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-014-1",
+      "cred_type": "ssh_key",
+      "user_id": "user-014",
+      "strength": "medium",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-015-0",
+      "cred_type": "password",
+      "user_id": "user-015",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-015-1",
+      "cred_type": "ssh_key",
+      "user_id": "user-015",
+      "strength": "weak",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-016-0",
+      "cred_type": "password",
+      "user_id": "user-016",
+      "strength": "weak",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-017-0",
+      "cred_type": "ssh_key",
+      "user_id": "user-017",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-017-1",
+      "cred_type": "password",
+      "user_id": "user-017",
+      "strength": "weak",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-018-0",
+      "cred_type": "api_token",
+      "user_id": "user-018",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-019-0",
+      "cred_type": "password",
+      "user_id": "user-019",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-019-1",
+      "cred_type": "password",
+      "user_id": "user-019",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-020-0",
+      "cred_type": "password",
+      "user_id": "user-020",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-021-0",
+      "cred_type": "password",
+      "user_id": "user-021",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-022-0",
+      "cred_type": "ssh_key",
+      "user_id": "user-022",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-023-0",
+      "cred_type": "password",
+      "user_id": "user-023",
+      "strength": "strong",
+      "leaked": false,
+      "kind": "credential"
+    },
+    {
+      "id": "cred-user-024-0",
+      "cred_type": "ssh_key",
+      "user_id": "user-024",
+      "strength": "medium",
+      "leaked": false,
+      "kind": "credential"
+    }
+  ],
+  "vulns": [
+    {
+      "id": "CVE-2014-0160",
+      "cvss": 7.5,
+      "exploit_available": true,
+      "description": "Heartbleed info leak",
+      "mitre_techniques": [
+        "T1190"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2016-5195",
+      "cvss": 7.8,
+      "exploit_available": true,
+      "description": "Dirty COW local priv-esc",
+      "mitre_techniques": [
+        "T1068"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2017-0144",
+      "cvss": 8.1,
+      "exploit_available": true,
+      "description": "EternalBlue SMB RCE",
+      "mitre_techniques": [
+        "T1210",
+        "T1021"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2018-13379",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "description": "Fortinet path traversal",
+      "mitre_techniques": [
+        "T1190"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2019-0708",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "description": "BlueKeep RDP RCE",
+      "mitre_techniques": [
+        "T1210",
+        "T1021"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2020-1472",
+      "cvss": 10.0,
+      "exploit_available": true,
+      "description": "Zerologon priv-esc",
+      "mitre_techniques": [
+        "T1068",
+        "T1210"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2021-34527",
+      "cvss": 8.8,
+      "exploit_available": true,
+      "description": "PrintNightmare priv-esc",
+      "mitre_techniques": [
+        "T1068"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2021-44228",
+      "cvss": 10.0,
+      "exploit_available": true,
+      "description": "Log4Shell RCE",
+      "mitre_techniques": [
+        "T1190",
+        "T1059"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2022-22965",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "description": "Spring4Shell RCE",
+      "mitre_techniques": [
+        "T1190"
+      ],
+      "epss": 0.9,
+      "kind": "vuln"
+    },
+    {
+      "id": "CVE-2023-23397",
+      "cvss": 9.8,
+      "exploit_available": false,
+      "description": "Outlook NTLM leak",
+      "mitre_techniques": [
+        "T1187"
+      ],
+      "epss": 0.05,
+      "kind": "vuln"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "vendor-00",
+      "name": "AcmeSoft",
+      "breach_risk": 0.2,
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor-01",
+      "name": "NimbusCloud",
+      "breach_risk": 0.26,
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor-02",
+      "name": "AuthGate",
+      "breach_risk": 0.16,
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor-03",
+      "name": "AcmeSoft",
+      "breach_risk": 0.09,
+      "kind": "vendor"
+    }
+  ],
+  "vuln_findings": {
+    "asset-002": [
+      "CVE-2023-23397",
+      "CVE-2021-44228",
+      "CVE-2022-22965"
+    ],
+    "asset-004": [
+      "CVE-2020-1472"
+    ],
+    "asset-005": [
+      "CVE-2019-0708",
+      "CVE-2014-0160"
+    ],
+    "asset-006": [
+      "CVE-2021-34527",
+      "CVE-2017-0144"
+    ],
+    "asset-007": [
+      "CVE-2023-23397",
+      "CVE-2022-22965"
+    ],
+    "asset-008": [
+      "CVE-2016-5195"
+    ],
+    "asset-010": [
+      "CVE-2023-23397"
+    ],
+    "asset-011": [
+      "CVE-2017-0144",
+      "CVE-2021-44228"
+    ],
+    "asset-012": [
+      "CVE-2021-34527",
+      "CVE-2022-22965"
+    ],
+    "asset-013": [
+      "CVE-2021-34527",
+      "CVE-2017-0144"
+    ],
+    "asset-014": [
+      "CVE-2021-34527",
+      "CVE-2021-44228"
+    ],
+    "asset-019": [
+      "CVE-2018-13379"
+    ],
+    "asset-021": [
+      "CVE-2016-5195"
+    ],
+    "asset-022": [
+      "CVE-2021-44228",
+      "CVE-2023-23397"
+    ],
+    "asset-023": [
+      "CVE-2021-34527",
+      "CVE-2019-0708"
+    ],
+    "asset-024": [
+      "CVE-2020-1472"
+    ],
+    "asset-026": [
+      "CVE-2014-0160"
+    ],
+    "asset-027": [
+      "CVE-2021-34527",
+      "CVE-2023-23397"
+    ],
+    "asset-029": [
+      "CVE-2021-34527",
+      "CVE-2014-0160"
+    ],
+    "asset-030": [
+      "CVE-2016-5195",
+      "CVE-2020-1472"
+    ],
+    "asset-032": [
+      "CVE-2019-0708",
+      "CVE-2023-23397"
+    ],
+    "asset-034": [
+      "CVE-2016-5195",
+      "CVE-2023-23397"
+    ],
+    "asset-035": [
+      "CVE-2014-0160"
+    ],
+    "asset-036": [
+      "CVE-2020-1472"
+    ],
+    "asset-038": [
+      "CVE-2019-0708",
+      "CVE-2014-0160"
+    ],
+    "asset-039": [
+      "CVE-2017-0144",
+      "CVE-2018-13379"
+    ],
+    "asset-000": [
+      "CVE-2021-44228"
+    ],
+    "asset-001": [
+      "CVE-2017-0144"
+    ]
+  },
+  "cloud_telemetry": {
+    "asset-001": {
+      "public_ip": false,
+      "open_ports": [
+        3389,
+        443,
+        445
+      ]
+    },
+    "asset-004": {
+      "public_ip": false,
+      "open_ports": [
+        3389,
+        8080
+      ]
+    },
+    "asset-006": {
+      "public_ip": false,
+      "open_ports": [
+        8080,
+        22
+      ]
+    },
+    "asset-007": {
+      "public_ip": false,
+      "open_ports": [
+        80,
+        443,
+        22
+      ]
+    },
+    "asset-009": {
+      "public_ip": false,
+      "open_ports": [
+        22,
+        443
+      ]
+    },
+    "asset-010": {
+      "public_ip": false,
+      "open_ports": [
+        22,
+        445
+      ]
+    },
+    "asset-011": {
+      "public_ip": false,
+      "open_ports": [
+        443,
+        3389
+      ]
+    },
+    "asset-014": {
+      "public_ip": true,
+      "open_ports": [
+        80
+      ]
+    },
+    "asset-018": {
+      "public_ip": false,
+      "open_ports": [
+        445
+      ]
+    },
+    "asset-021": {
+      "public_ip": false,
+      "open_ports": [
+        80
+      ]
+    },
+    "asset-024": {
+      "public_ip": false,
+      "open_ports": [
+        445,
+        443,
+        5432
+      ]
+    },
+    "asset-026": {
+      "public_ip": false,
+      "open_ports": [
+        445
+      ]
+    },
+    "asset-027": {
+      "public_ip": false,
+      "open_ports": [
+        445,
+        443,
+        22
+      ]
+    },
+    "asset-028": {
+      "public_ip": false,
+      "open_ports": [
+        443,
+        80,
+        3389
+      ]
+    },
+    "asset-030": {
+      "public_ip": false,
+      "open_ports": [
+        3389,
+        22
+      ]
+    },
+    "asset-032": {
+      "public_ip": true,
+      "open_ports": [
+        22
+      ]
+    },
+    "asset-035": {
+      "public_ip": false,
+      "open_ports": [
+        5432,
+        3389
+      ]
+    },
+    "asset-037": {
+      "public_ip": false,
+      "open_ports": [
+        443,
+        5432
+      ]
+    },
+    "asset-038": {
+      "public_ip": false,
+      "open_ports": [
+        3389
+      ]
+    }
+  },
+  "threat_intel": {
+    "actively_exploited": [
+      "CVE-2021-44228",
+      "CVE-2014-0160",
+      "CVE-2017-0144",
+      "CVE-2019-0708",
+      "CVE-2020-1472",
+      "CVE-2018-13379",
+      "CVE-2022-22965",
+      "CVE-2016-5195",
+      "CVE-2021-34527"
+    ]
+  },
+  "identity_map": {
+    "user-000": "user-000",
+    "user-001": "user-001",
+    "user-002": "user-002",
+    "user-003": "user-003",
+    "user-004": "user-004",
+    "user-005": "user-005",
+    "user-006": "user-006",
+    "user-007": "user-007",
+    "user-008": "user-008",
+    "user-009": "user-009",
+    "user-010": "user-010",
+    "user-011": "user-011",
+    "user-012": "user-012",
+    "user-013": "user-013",
+    "user-014": "user-014",
+    "user-015": "user-015",
+    "user-016": "user-016",
+    "user-017": "user-017",
+    "user-018": "user-018",
+    "user-019": "user-019",
+    "user-020": "user-020",
+    "user-021": "user-021",
+    "user-022": "user-022",
+    "user-023": "user-023",
+    "user-024": "user-024"
+  },
+  "segments": [
+    {
+      "id": "seg-00",
+      "cidr": "10.0.0.0/24",
+      "vlan_id": "vlan-100",
+      "firewall_policy": "permissive",
+      "zone_type": "external",
+      "kind": "segment"
+    },
+    {
+      "id": "seg-01",
+      "cidr": "10.1.0.0/24",
+      "vlan_id": "vlan-101",
+      "firewall_policy": "standard",
+      "zone_type": "dmz",
+      "kind": "segment"
+    },
+    {
+      "id": "seg-02",
+      "cidr": "10.2.0.0/24",
+      "vlan_id": "vlan-102",
+      "firewall_policy": "standard",
+      "zone_type": "internal",
+      "kind": "segment"
+    },
+    {
+      "id": "seg-03",
+      "cidr": "10.3.0.0/24",
+      "vlan_id": "vlan-103",
+      "firewall_policy": "strict",
+      "zone_type": "internal",
+      "kind": "segment"
+    },
+    {
+      "id": "seg-04",
+      "cidr": "10.4.0.0/24",
+      "vlan_id": "vlan-104",
+      "firewall_policy": "strict",
+      "zone_type": "restricted",
+      "kind": "segment"
+    },
+    {
+      "id": "seg-05",
+      "cidr": "10.5.0.0/24",
+      "vlan_id": "vlan-105",
+      "firewall_policy": "strict",
+      "zone_type": "restricted",
+      "kind": "segment"
+    }
+  ],
+  "services": [
+    {
+      "id": "svc-0000",
+      "asset_id": "asset-000",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0001",
+      "asset_id": "asset-000",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0002",
+      "asset_id": "asset-001",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0003",
+      "asset_id": "asset-002",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0004",
+      "asset_id": "asset-003",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0005",
+      "asset_id": "asset-003",
+      "port": 80,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0006",
+      "asset_id": "asset-004",
+      "port": 22,
+      "protocol": "tcp",
+      "banner": "OpenSSH/8.9",
+      "version": "8.9",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0007",
+      "asset_id": "asset-005",
+      "port": 5432,
+      "protocol": "tcp",
+      "banner": "PostgreSQL/14.5",
+      "version": "14.5",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0008",
+      "asset_id": "asset-005",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0009",
+      "asset_id": "asset-006",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0010",
+      "asset_id": "asset-007",
+      "port": 27017,
+      "protocol": "tcp",
+      "banner": "MongoDB/6.0",
+      "version": "6.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0011",
+      "asset_id": "asset-007",
+      "port": 80,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0012",
+      "asset_id": "asset-008",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0013",
+      "asset_id": "asset-008",
+      "port": 5432,
+      "protocol": "tcp",
+      "banner": "PostgreSQL/14.5",
+      "version": "14.5",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0014",
+      "asset_id": "asset-009",
+      "port": 5432,
+      "protocol": "tcp",
+      "banner": "PostgreSQL/14.5",
+      "version": "14.5",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0015",
+      "asset_id": "asset-010",
+      "port": 22,
+      "protocol": "tcp",
+      "banner": "OpenSSH/8.9",
+      "version": "8.9",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0016",
+      "asset_id": "asset-011",
+      "port": 443,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0017",
+      "asset_id": "asset-011",
+      "port": 3389,
+      "protocol": "tcp",
+      "banner": "MS-RDP/10.0",
+      "version": "10.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0018",
+      "asset_id": "asset-012",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0019",
+      "asset_id": "asset-012",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0020",
+      "asset_id": "asset-012",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0021",
+      "asset_id": "asset-013",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0022",
+      "asset_id": "asset-014",
+      "port": 22,
+      "protocol": "tcp",
+      "banner": "OpenSSH/8.9",
+      "version": "8.9",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0023",
+      "asset_id": "asset-014",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0024",
+      "asset_id": "asset-014",
+      "port": 3389,
+      "protocol": "tcp",
+      "banner": "MS-RDP/10.0",
+      "version": "10.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0025",
+      "asset_id": "asset-014",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0026",
+      "asset_id": "asset-015",
+      "port": 22,
+      "protocol": "tcp",
+      "banner": "OpenSSH/8.9",
+      "version": "8.9",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0027",
+      "asset_id": "asset-016",
+      "port": 3306,
+      "protocol": "tcp",
+      "banner": "MySQL/8.0",
+      "version": "8.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0028",
+      "asset_id": "asset-016",
+      "port": 443,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0029",
+      "asset_id": "asset-016",
+      "port": 5432,
+      "protocol": "tcp",
+      "banner": "PostgreSQL/14.5",
+      "version": "14.5",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0030",
+      "asset_id": "asset-016",
+      "port": 3389,
+      "protocol": "tcp",
+      "banner": "MS-RDP/10.0",
+      "version": "10.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0031",
+      "asset_id": "asset-017",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0032",
+      "asset_id": "asset-018",
+      "port": 443,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0033",
+      "asset_id": "asset-019",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0034",
+      "asset_id": "asset-019",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0035",
+      "asset_id": "asset-019",
+      "port": 5432,
+      "protocol": "tcp",
+      "banner": "PostgreSQL/14.5",
+      "version": "14.5",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0036",
+      "asset_id": "asset-019",
+      "port": 443,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0037",
+      "asset_id": "asset-020",
+      "port": 5432,
+      "protocol": "tcp",
+      "banner": "PostgreSQL/14.5",
+      "version": "14.5",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0038",
+      "asset_id": "asset-020",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0039",
+      "asset_id": "asset-020",
+      "port": 3389,
+      "protocol": "tcp",
+      "banner": "MS-RDP/10.0",
+      "version": "10.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0040",
+      "asset_id": "asset-021",
+      "port": 3306,
+      "protocol": "tcp",
+      "banner": "MySQL/8.0",
+      "version": "8.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0041",
+      "asset_id": "asset-021",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0042",
+      "asset_id": "asset-022",
+      "port": 80,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0043",
+      "asset_id": "asset-022",
+      "port": 443,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0044",
+      "asset_id": "asset-022",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0045",
+      "asset_id": "asset-022",
+      "port": 22,
+      "protocol": "tcp",
+      "banner": "OpenSSH/8.9",
+      "version": "8.9",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0046",
+      "asset_id": "asset-023",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0047",
+      "asset_id": "asset-023",
+      "port": 3306,
+      "protocol": "tcp",
+      "banner": "MySQL/8.0",
+      "version": "8.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0048",
+      "asset_id": "asset-024",
+      "port": 3306,
+      "protocol": "tcp",
+      "banner": "MySQL/8.0",
+      "version": "8.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0049",
+      "asset_id": "asset-025",
+      "port": 3306,
+      "protocol": "tcp",
+      "banner": "MySQL/8.0",
+      "version": "8.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0050",
+      "asset_id": "asset-025",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0051",
+      "asset_id": "asset-026",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0052",
+      "asset_id": "asset-027",
+      "port": 3389,
+      "protocol": "tcp",
+      "banner": "MS-RDP/10.0",
+      "version": "10.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0053",
+      "asset_id": "asset-028",
+      "port": 443,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0054",
+      "asset_id": "asset-029",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0055",
+      "asset_id": "asset-029",
+      "port": 80,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0056",
+      "asset_id": "asset-030",
+      "port": 3389,
+      "protocol": "tcp",
+      "banner": "MS-RDP/10.0",
+      "version": "10.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0057",
+      "asset_id": "asset-030",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0058",
+      "asset_id": "asset-031",
+      "port": 27017,
+      "protocol": "tcp",
+      "banner": "MongoDB/6.0",
+      "version": "6.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0059",
+      "asset_id": "asset-031",
+      "port": 3389,
+      "protocol": "tcp",
+      "banner": "MS-RDP/10.0",
+      "version": "10.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0060",
+      "asset_id": "asset-032",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0061",
+      "asset_id": "asset-033",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0062",
+      "asset_id": "asset-033",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0063",
+      "asset_id": "asset-034",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0064",
+      "asset_id": "asset-035",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0065",
+      "asset_id": "asset-035",
+      "port": 22,
+      "protocol": "tcp",
+      "banner": "OpenSSH/8.9",
+      "version": "8.9",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0066",
+      "asset_id": "asset-036",
+      "port": 5432,
+      "protocol": "tcp",
+      "banner": "PostgreSQL/14.5",
+      "version": "14.5",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0067",
+      "asset_id": "asset-036",
+      "port": 8080,
+      "protocol": "tcp",
+      "banner": "Apache Tomcat/9.0",
+      "version": "9.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0068",
+      "asset_id": "asset-037",
+      "port": 6379,
+      "protocol": "tcp",
+      "banner": "Redis/7.0",
+      "version": "7.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0069",
+      "asset_id": "asset-038",
+      "port": 80,
+      "protocol": "tcp",
+      "banner": "nginx/1.22",
+      "version": "1.22",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0070",
+      "asset_id": "asset-039",
+      "port": 3389,
+      "protocol": "tcp",
+      "banner": "MS-RDP/10.0",
+      "version": "10.0",
+      "kind": "service"
+    },
+    {
+      "id": "svc-0071",
+      "asset_id": "asset-039",
+      "port": 445,
+      "protocol": "tcp",
+      "banner": "SMB/3.0",
+      "version": "3.0",
+      "kind": "service"
+    }
+  ],
+  "monitoring_logs": [
+    {
+      "id": "event-000-0",
+      "asset_id": "asset-000",
+      "type": "data_exfil_suspect",
+      "severity": "medium",
+      "timestamp": "2024-07-10T00:08:00Z",
+      "detail": "Security event on host000.corp.local",
+      "source_ip": "182.242.250.1"
+    },
+    {
+      "id": "event-000-1",
+      "asset_id": "asset-000",
+      "type": "auth_failure",
+      "severity": "medium",
+      "timestamp": "2024-09-28T14:28:00Z",
+      "detail": "Security event on host000.corp.local",
+      "source_ip": "28.114.79.39"
+    },
+    {
+      "id": "event-000-2",
+      "asset_id": "asset-000",
+      "type": "lateral_attempt",
+      "severity": "low",
+      "timestamp": "2024-12-23T20:54:00Z",
+      "detail": "Security event on host000.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-001-0",
+      "asset_id": "asset-001",
+      "type": "auth_failure",
+      "severity": "high",
+      "timestamp": "2024-01-01T04:14:00Z",
+      "detail": "Security event on host001.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-001-1",
+      "asset_id": "asset-001",
+      "type": "auth_failure",
+      "severity": "medium",
+      "timestamp": "2024-03-21T08:33:00Z",
+      "detail": "Security event on host001.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-001-2",
+      "asset_id": "asset-001",
+      "type": "data_exfil_suspect",
+      "severity": "low",
+      "timestamp": "2024-02-03T09:33:00Z",
+      "detail": "Security event on host001.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-002-0",
+      "asset_id": "asset-002",
+      "type": "privilege_use",
+      "severity": "medium",
+      "timestamp": "2024-04-26T19:00:00Z",
+      "detail": "Security event on host002.corp.local",
+      "source_ip": "78.235.142.246"
+    },
+    {
+      "id": "event-003-0",
+      "asset_id": "asset-003",
+      "type": "data_exfil_suspect",
+      "severity": "low",
+      "timestamp": "2024-08-17T07:35:00Z",
+      "detail": "Security event on host003.corp.local",
+      "source_ip": "246.210.157.15"
+    },
+    {
+      "id": "event-003-1",
+      "asset_id": "asset-003",
+      "type": "auth_failure",
+      "severity": "low",
+      "timestamp": "2024-08-22T20:26:00Z",
+      "detail": "Security event on host003.corp.local",
+      "source_ip": "59.217.189.59"
+    },
+    {
+      "id": "event-004-0",
+      "asset_id": "asset-004",
+      "type": "auth_failure",
+      "severity": "medium",
+      "timestamp": "2024-12-14T11:43:00Z",
+      "detail": "Security event on host004.corp.local",
+      "source_ip": "2.149.34.53"
+    },
+    {
+      "id": "event-004-1",
+      "asset_id": "asset-004",
+      "type": "privilege_use",
+      "severity": "low",
+      "timestamp": "2024-05-25T06:14:00Z",
+      "detail": "Security event on host004.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-004-2",
+      "asset_id": "asset-004",
+      "type": "config_change",
+      "severity": "medium",
+      "timestamp": "2024-02-20T15:39:00Z",
+      "detail": "Security event on host004.corp.local",
+      "source_ip": "58.248.213.234"
+    },
+    {
+      "id": "event-006-0",
+      "asset_id": "asset-006",
+      "type": "privilege_use",
+      "severity": "low",
+      "timestamp": "2024-04-01T19:09:00Z",
+      "detail": "Security event on host006.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-008-0",
+      "asset_id": "asset-008",
+      "type": "privilege_use",
+      "severity": "medium",
+      "timestamp": "2024-12-11T23:07:00Z",
+      "detail": "Security event on host008.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-009-0",
+      "asset_id": "asset-009",
+      "type": "config_change",
+      "severity": "low",
+      "timestamp": "2024-03-21T16:47:00Z",
+      "detail": "Security event on host009.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-010-0",
+      "asset_id": "asset-010",
+      "type": "data_exfil_suspect",
+      "severity": "medium",
+      "timestamp": "2024-06-11T14:10:00Z",
+      "detail": "Security event on host010.corp.local",
+      "source_ip": "21.143.41.90"
+    },
+    {
+      "id": "event-010-1",
+      "asset_id": "asset-010",
+      "type": "privilege_use",
+      "severity": "low",
+      "timestamp": "2024-09-25T06:24:00Z",
+      "detail": "Security event on host010.corp.local",
+      "source_ip": "211.158.221.23"
+    },
+    {
+      "id": "event-012-0",
+      "asset_id": "asset-012",
+      "type": "port_scan",
+      "severity": "medium",
+      "timestamp": "2024-09-15T06:20:00Z",
+      "detail": "Security event on host012.corp.local",
+      "source_ip": "230.242.15.162"
+    },
+    {
+      "id": "event-012-1",
+      "asset_id": "asset-012",
+      "type": "privilege_use",
+      "severity": "low",
+      "timestamp": "2024-11-25T12:02:00Z",
+      "detail": "Security event on host012.corp.local",
+      "source_ip": "119.32.31.66"
+    },
+    {
+      "id": "event-012-2",
+      "asset_id": "asset-012",
+      "type": "port_scan",
+      "severity": "low",
+      "timestamp": "2024-10-11T11:17:00Z",
+      "detail": "Security event on host012.corp.local",
+      "source_ip": "245.22.134.192"
+    },
+    {
+      "id": "event-013-0",
+      "asset_id": "asset-013",
+      "type": "config_change",
+      "severity": "medium",
+      "timestamp": "2024-01-24T19:58:00Z",
+      "detail": "Security event on host013.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-013-1",
+      "asset_id": "asset-013",
+      "type": "auth_failure",
+      "severity": "low",
+      "timestamp": "2024-04-04T15:45:00Z",
+      "detail": "Security event on host013.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-014-0",
+      "asset_id": "asset-014",
+      "type": "config_change",
+      "severity": "medium",
+      "timestamp": "2024-08-05T15:11:00Z",
+      "detail": "Security event on host014.corp.local",
+      "source_ip": "239.155.77.156"
+    },
+    {
+      "id": "event-014-1",
+      "asset_id": "asset-014",
+      "type": "port_scan",
+      "severity": "medium",
+      "timestamp": "2024-06-15T11:50:00Z",
+      "detail": "Security event on host014.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-014-2",
+      "asset_id": "asset-014",
+      "type": "auth_failure",
+      "severity": "high",
+      "timestamp": "2024-04-13T05:15:00Z",
+      "detail": "Security event on host014.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-016-0",
+      "asset_id": "asset-016",
+      "type": "lateral_attempt",
+      "severity": "high",
+      "timestamp": "2024-06-06T13:56:00Z",
+      "detail": "Security event on host016.corp.local",
+      "source_ip": "19.135.43.54"
+    },
+    {
+      "id": "event-016-1",
+      "asset_id": "asset-016",
+      "type": "auth_failure",
+      "severity": "medium",
+      "timestamp": "2024-08-23T14:11:00Z",
+      "detail": "Security event on host016.corp.local",
+      "source_ip": "107.235.120.192"
+    },
+    {
+      "id": "event-016-2",
+      "asset_id": "asset-016",
+      "type": "lateral_attempt",
+      "severity": "low",
+      "timestamp": "2024-05-10T08:36:00Z",
+      "detail": "Security event on host016.corp.local",
+      "source_ip": "66.133.101.113"
+    },
+    {
+      "id": "event-017-0",
+      "asset_id": "asset-017",
+      "type": "port_scan",
+      "severity": "low",
+      "timestamp": "2024-04-05T09:56:00Z",
+      "detail": "Security event on host017.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-018-0",
+      "asset_id": "asset-018",
+      "type": "config_change",
+      "severity": "low",
+      "timestamp": "2024-07-09T07:32:00Z",
+      "detail": "Security event on host018.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-020-0",
+      "asset_id": "asset-020",
+      "type": "auth_failure",
+      "severity": "low",
+      "timestamp": "2024-01-16T07:53:00Z",
+      "detail": "Security event on host020.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-020-1",
+      "asset_id": "asset-020",
+      "type": "config_change",
+      "severity": "low",
+      "timestamp": "2024-05-08T03:03:00Z",
+      "detail": "Security event on host020.corp.local",
+      "source_ip": "250.99.38.96"
+    },
+    {
+      "id": "event-020-2",
+      "asset_id": "asset-020",
+      "type": "lateral_attempt",
+      "severity": "low",
+      "timestamp": "2024-08-20T08:49:00Z",
+      "detail": "Security event on host020.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-023-0",
+      "asset_id": "asset-023",
+      "type": "port_scan",
+      "severity": "low",
+      "timestamp": "2024-06-11T04:02:00Z",
+      "detail": "Security event on host023.corp.local",
+      "source_ip": "66.19.104.209"
+    },
+    {
+      "id": "event-023-1",
+      "asset_id": "asset-023",
+      "type": "auth_failure",
+      "severity": "medium",
+      "timestamp": "2024-07-22T11:11:00Z",
+      "detail": "Security event on host023.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-025-0",
+      "asset_id": "asset-025",
+      "type": "auth_failure",
+      "severity": "medium",
+      "timestamp": "2024-09-16T02:26:00Z",
+      "detail": "Security event on host025.corp.local",
+      "source_ip": "102.79.46.168"
+    },
+    {
+      "id": "event-026-0",
+      "asset_id": "asset-026",
+      "type": "privilege_use",
+      "severity": "medium",
+      "timestamp": "2024-07-10T21:19:00Z",
+      "detail": "Security event on host026.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-028-0",
+      "asset_id": "asset-028",
+      "type": "data_exfil_suspect",
+      "severity": "high",
+      "timestamp": "2024-06-14T13:01:00Z",
+      "detail": "Security event on host028.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-028-1",
+      "asset_id": "asset-028",
+      "type": "config_change",
+      "severity": "low",
+      "timestamp": "2024-07-24T12:13:00Z",
+      "detail": "Security event on host028.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-029-0",
+      "asset_id": "asset-029",
+      "type": "port_scan",
+      "severity": "medium",
+      "timestamp": "2024-02-27T02:25:00Z",
+      "detail": "Security event on host029.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-029-1",
+      "asset_id": "asset-029",
+      "type": "config_change",
+      "severity": "medium",
+      "timestamp": "2024-03-05T00:03:00Z",
+      "detail": "Security event on host029.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-029-2",
+      "asset_id": "asset-029",
+      "type": "data_exfil_suspect",
+      "severity": "medium",
+      "timestamp": "2024-02-19T19:59:00Z",
+      "detail": "Security event on host029.corp.local",
+      "source_ip": "130.87.74.90"
+    },
+    {
+      "id": "event-030-0",
+      "asset_id": "asset-030",
+      "type": "port_scan",
+      "severity": "high",
+      "timestamp": "2024-03-03T03:24:00Z",
+      "detail": "Security event on host030.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-030-1",
+      "asset_id": "asset-030",
+      "type": "port_scan",
+      "severity": "medium",
+      "timestamp": "2024-03-27T01:58:00Z",
+      "detail": "Security event on host030.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-032-0",
+      "asset_id": "asset-032",
+      "type": "auth_failure",
+      "severity": "high",
+      "timestamp": "2024-12-27T05:40:00Z",
+      "detail": "Security event on host032.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-032-1",
+      "asset_id": "asset-032",
+      "type": "port_scan",
+      "severity": "high",
+      "timestamp": "2024-07-20T06:53:00Z",
+      "detail": "Security event on host032.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-032-2",
+      "asset_id": "asset-032",
+      "type": "lateral_attempt",
+      "severity": "low",
+      "timestamp": "2024-01-13T16:10:00Z",
+      "detail": "Security event on host032.corp.local",
+      "source_ip": "32.76.126.249"
+    },
+    {
+      "id": "event-033-0",
+      "asset_id": "asset-033",
+      "type": "auth_failure",
+      "severity": "high",
+      "timestamp": "2024-11-02T21:53:00Z",
+      "detail": "Security event on host033.corp.local",
+      "source_ip": "100.233.156.167"
+    },
+    {
+      "id": "event-034-0",
+      "asset_id": "asset-034",
+      "type": "config_change",
+      "severity": "high",
+      "timestamp": "2024-04-14T12:42:00Z",
+      "detail": "Security event on host034.corp.local",
+      "source_ip": "129.224.91.6"
+    },
+    {
+      "id": "event-034-1",
+      "asset_id": "asset-034",
+      "type": "auth_failure",
+      "severity": "high",
+      "timestamp": "2024-08-15T07:28:00Z",
+      "detail": "Security event on host034.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-034-2",
+      "asset_id": "asset-034",
+      "type": "privilege_use",
+      "severity": "low",
+      "timestamp": "2024-08-13T03:04:00Z",
+      "detail": "Security event on host034.corp.local",
+      "source_ip": "111.187.46.206"
+    },
+    {
+      "id": "event-035-0",
+      "asset_id": "asset-035",
+      "type": "lateral_attempt",
+      "severity": "high",
+      "timestamp": "2024-11-02T01:40:00Z",
+      "detail": "Security event on host035.corp.local",
+      "source_ip": "237.160.40.14"
+    },
+    {
+      "id": "event-035-1",
+      "asset_id": "asset-035",
+      "type": "lateral_attempt",
+      "severity": "medium",
+      "timestamp": "2024-11-26T04:01:00Z",
+      "detail": "Security event on host035.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-035-2",
+      "asset_id": "asset-035",
+      "type": "lateral_attempt",
+      "severity": "low",
+      "timestamp": "2024-04-05T15:18:00Z",
+      "detail": "Security event on host035.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-036-0",
+      "asset_id": "asset-036",
+      "type": "data_exfil_suspect",
+      "severity": "low",
+      "timestamp": "2024-02-27T11:39:00Z",
+      "detail": "Security event on host036.corp.local",
+      "source_ip": null
+    },
+    {
+      "id": "event-037-0",
+      "asset_id": "asset-037",
+      "type": "config_change",
+      "severity": "high",
+      "timestamp": "2024-05-27T14:09:00Z",
+      "detail": "Security event on host037.corp.local",
+      "source_ip": "247.245.106.152"
+    },
+    {
+      "id": "event-038-0",
+      "asset_id": "asset-038",
+      "type": "lateral_attempt",
+      "severity": "high",
+      "timestamp": "2024-04-11T11:02:00Z",
+      "detail": "Security event on host038.corp.local",
+      "source_ip": "104.82.142.174"
+    },
+    {
+      "id": "event-038-1",
+      "asset_id": "asset-038",
+      "type": "config_change",
+      "severity": "medium",
+      "timestamp": "2024-03-26T08:07:00Z",
+      "detail": "Security event on host038.corp.local",
+      "source_ip": null
+    }
+  ],
+  "technique_index": {
+    "T1190": [
+      "CVE-2014-0160",
+      "CVE-2018-13379",
+      "CVE-2021-44228",
+      "CVE-2022-22965"
+    ],
+    "T1068": [
+      "CVE-2016-5195",
+      "CVE-2020-1472",
+      "CVE-2021-34527"
+    ],
+    "T1210": [
+      "CVE-2017-0144",
+      "CVE-2019-0708",
+      "CVE-2020-1472"
+    ],
+    "T1021": [
+      "CVE-2017-0144",
+      "CVE-2019-0708"
+    ],
+    "T1059": [
+      "CVE-2021-44228"
+    ],
+    "T1187": [
+      "CVE-2023-23397"
+    ]
+  },
+  "relationships": [
+    {
+      "source": "user:user-000",
+      "target": "cred:cred-user-000-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-001",
+      "target": "cred:cred-user-001-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-002",
+      "target": "cred:cred-user-002-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-003",
+      "target": "cred:cred-user-003-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-004",
+      "target": "cred:cred-user-004-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-005",
+      "target": "cred:cred-user-005-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-005",
+      "target": "cred:cred-user-005-1",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-006",
+      "target": "cred:cred-user-006-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-007",
+      "target": "cred:cred-user-007-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-008",
+      "target": "cred:cred-user-008-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-009",
+      "target": "cred:cred-user-009-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-010",
+      "target": "cred:cred-user-010-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-011",
+      "target": "cred:cred-user-011-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-012",
+      "target": "cred:cred-user-012-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-013",
+      "target": "cred:cred-user-013-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-013",
+      "target": "cred:cred-user-013-1",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-014",
+      "target": "cred:cred-user-014-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-014",
+      "target": "cred:cred-user-014-1",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-015",
+      "target": "cred:cred-user-015-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-015",
+      "target": "cred:cred-user-015-1",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-016",
+      "target": "cred:cred-user-016-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-017",
+      "target": "cred:cred-user-017-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-017",
+      "target": "cred:cred-user-017-1",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-018",
+      "target": "cred:cred-user-018-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-019",
+      "target": "cred:cred-user-019-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-019",
+      "target": "cred:cred-user-019-1",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-020",
+      "target": "cred:cred-user-020-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-021",
+      "target": "cred:cred-user-021-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-022",
+      "target": "cred:cred-user-022-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-023",
+      "target": "cred:cred-user-023-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "user:user-024",
+      "target": "cred:cred-user-024-0",
+      "rel": "HAS_CREDENTIAL"
+    },
+    {
+      "source": "cred:cred-user-000-0",
+      "target": "asset:asset-009",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-000-0",
+      "target": "asset:asset-025",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-001-0",
+      "target": "asset:asset-004",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-002-0",
+      "target": "asset:asset-023",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-003-0",
+      "target": "asset:asset-032",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-004-0",
+      "target": "asset:asset-002",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-005-0",
+      "target": "asset:asset-027",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-005-1",
+      "target": "asset:asset-004",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-005-1",
+      "target": "asset:asset-015",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-006-0",
+      "target": "asset:asset-035",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-007-0",
+      "target": "asset:asset-003",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-007-0",
+      "target": "asset:asset-036",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-008-0",
+      "target": "asset:asset-014",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-009-0",
+      "target": "asset:asset-036",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-010-0",
+      "target": "asset:asset-003",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-010-0",
+      "target": "asset:asset-014",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-011-0",
+      "target": "asset:asset-035",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-012-0",
+      "target": "asset:asset-018",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-013-0",
+      "target": "asset:asset-009",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-013-0",
+      "target": "asset:asset-034",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-013-1",
+      "target": "asset:asset-036",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-014-0",
+      "target": "asset:asset-035",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-014-0",
+      "target": "asset:asset-011",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-014-1",
+      "target": "asset:asset-037",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-015-0",
+      "target": "asset:asset-023",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-015-1",
+      "target": "asset:asset-035",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-016-0",
+      "target": "asset:asset-036",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-017-0",
+      "target": "asset:asset-039",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-017-1",
+      "target": "asset:asset-031",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-018-0",
+      "target": "asset:asset-020",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-018-0",
+      "target": "asset:asset-029",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-019-0",
+      "target": "asset:asset-023",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-019-0",
+      "target": "asset:asset-019",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-019-1",
+      "target": "asset:asset-011",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-020-0",
+      "target": "asset:asset-005",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-021-0",
+      "target": "asset:asset-033",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-021-0",
+      "target": "asset:asset-031",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-022-0",
+      "target": "asset:asset-028",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-022-0",
+      "target": "asset:asset-018",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-023-0",
+      "target": "asset:asset-007",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-024-0",
+      "target": "asset:asset-010",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "cred:cred-user-024-0",
+      "target": "asset:asset-021",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-001",
+      "target": "asset:asset-025",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-003",
+      "target": "asset:asset-002",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-003",
+      "target": "asset:asset-032",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-004",
+      "target": "asset:asset-016",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-005",
+      "target": "asset:asset-019",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2018-13379",
+      "technique": "T1190"
+    },
+    {
+      "source": "asset:asset-005",
+      "target": "asset:asset-037",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-006",
+      "target": "asset:asset-002",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-007",
+      "target": "asset:asset-029",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-010",
+      "target": "asset:asset-028",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-010",
+      "target": "asset:asset-031",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-011",
+      "target": "asset:asset-039",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2017-0144",
+      "technique": "T1210"
+    },
+    {
+      "source": "asset:asset-011",
+      "target": "asset:asset-027",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2021-34527",
+      "technique": "T1068"
+    },
+    {
+      "source": "asset:asset-012",
+      "target": "asset:asset-018",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-012",
+      "target": "asset:asset-008",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-013",
+      "target": "asset:asset-005",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-014",
+      "target": "asset:asset-008",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2016-5195",
+      "technique": "T1068"
+    },
+    {
+      "source": "asset:asset-015",
+      "target": "asset:asset-023",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-016",
+      "target": "asset:asset-020",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-017",
+      "target": "asset:asset-015",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-019",
+      "target": "asset:asset-020",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-020",
+      "target": "asset:asset-009",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-020",
+      "target": "asset:asset-004",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-021",
+      "target": "asset:asset-014",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2021-34527",
+      "technique": "T1068"
+    },
+    {
+      "source": "asset:asset-021",
+      "target": "asset:asset-026",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2014-0160",
+      "technique": "T1190"
+    },
+    {
+      "source": "asset:asset-022",
+      "target": "asset:asset-012",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2021-34527",
+      "technique": "T1068"
+    },
+    {
+      "source": "asset:asset-026",
+      "target": "asset:asset-012",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2021-34527",
+      "technique": "T1068"
+    },
+    {
+      "source": "asset:asset-026",
+      "target": "asset:asset-008",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-027",
+      "target": "asset:asset-011",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2017-0144",
+      "technique": "T1210"
+    },
+    {
+      "source": "asset:asset-028",
+      "target": "asset:asset-031",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-029",
+      "target": "asset:asset-034",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-029",
+      "target": "asset:asset-013",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-030",
+      "target": "asset:asset-037",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-030",
+      "target": "asset:asset-038",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-032",
+      "target": "asset:asset-039",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-033",
+      "target": "asset:asset-031",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-034",
+      "target": "asset:asset-019",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2018-13379",
+      "technique": "T1190"
+    },
+    {
+      "source": "asset:asset-035",
+      "target": "asset:asset-031",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-035",
+      "target": "asset:asset-010",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2023-23397",
+      "technique": "T1187"
+    },
+    {
+      "source": "asset:asset-037",
+      "target": "asset:asset-005",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2019-0708",
+      "technique": "T1210"
+    },
+    {
+      "source": "asset:asset-038",
+      "target": "asset:asset-001",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2017-0144",
+      "technique": "T1210"
+    },
+    {
+      "source": "asset:asset-038",
+      "target": "asset:asset-003",
+      "rel": "CAN_ACCESS"
+    },
+    {
+      "source": "asset:asset-034",
+      "target": "user:user-000",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 2.0
+    },
+    {
+      "source": "asset:asset-006",
+      "target": "user:user-002",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 2.0
+    },
+    {
+      "source": "asset:asset-023",
+      "target": "user:user-004",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 2.0
+    },
+    {
+      "source": "asset:asset-039",
+      "target": "user:user-011",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 2.0
+    },
+    {
+      "source": "asset:asset-001",
+      "target": "user:user-012",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 2.0
+    },
+    {
+      "source": "asset:asset-004",
+      "target": "user:user-014",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 2.0
+    },
+    {
+      "source": "asset:asset-013",
+      "target": "user:user-021",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 2.0
+    },
+    {
+      "source": "asset:asset-039",
+      "target": "user:user-022",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 2.0
+    },
+    {
+      "source": "asset:asset-024",
+      "target": "vendor:vendor-02",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-009",
+      "target": "vendor:vendor-00",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-016",
+      "target": "vendor:vendor-01",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-022",
+      "target": "vendor:vendor-00",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-023",
+      "target": "vendor:vendor-02",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-030",
+      "target": "vendor:vendor-02",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-007",
+      "target": "vendor:vendor-03",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-033",
+      "target": "vendor:vendor-01",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-031",
+      "target": "vendor:vendor-00",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-014",
+      "target": "vendor:vendor-01",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-015",
+      "target": "vendor:vendor-02",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-029",
+      "target": "vendor:vendor-01",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "source": "asset:asset-000",
+      "target": "asset:asset-001",
+      "rel": "EXPLOITS",
+      "cve": "CVE-2017-0144",
+      "technique": "T1210",
+      "note": "lateral via SMB RCE"
+    },
+    {
+      "source": "asset:asset-001",
+      "target": "asset:asset-002",
+      "rel": "CAN_ACCESS",
+      "note": "app server reaches the database"
+    },
+    {
+      "source": "asset:asset-001",
+      "target": "user:user-000",
+      "rel": "ESCALATES_TO",
+      "technique": "T1003",
+      "severity": 1.5,
+      "note": "cached domain-admin creds"
+    },
+    {
+      "source": "cred:cred-user-005-0",
+      "target": "asset:asset-001",
+      "rel": "CAN_ACCESS",
+      "note": "leaked credential reaches app server"
+    },
+    {
+      "source": "asset:asset-000",
+      "target": "asset:asset-013",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-000",
+      "target": "asset:asset-012",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-002",
+      "target": "asset:asset-016",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-002",
+      "target": "asset:asset-039",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-003",
+      "target": "asset:asset-000",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-003",
+      "target": "asset:asset-031",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-005",
+      "target": "asset:asset-036",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-005",
+      "target": "asset:asset-013",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-008",
+      "target": "asset:asset-017",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-008",
+      "target": "asset:asset-019",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-012",
+      "target": "asset:asset-000",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-012",
+      "target": "asset:asset-008",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-013",
+      "target": "asset:asset-025",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-013",
+      "target": "asset:asset-034",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-015",
+      "target": "asset:asset-022",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-015",
+      "target": "asset:asset-036",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-016",
+      "target": "asset:asset-020",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-016",
+      "target": "asset:asset-008",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-017",
+      "target": "asset:asset-033",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-017",
+      "target": "asset:asset-002",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-019",
+      "target": "asset:asset-029",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-019",
+      "target": "asset:asset-034",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-020",
+      "target": "asset:asset-023",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-020",
+      "target": "asset:asset-039",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-022",
+      "target": "asset:asset-023",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-022",
+      "target": "asset:asset-039",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-023",
+      "target": "asset:asset-005",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-023",
+      "target": "asset:asset-031",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-025",
+      "target": "asset:asset-022",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-025",
+      "target": "asset:asset-002",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-029",
+      "target": "asset:asset-013",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-029",
+      "target": "asset:asset-003",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-031",
+      "target": "asset:asset-013",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-031",
+      "target": "asset:asset-025",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-033",
+      "target": "asset:asset-012",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-033",
+      "target": "asset:asset-005",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-034",
+      "target": "asset:asset-019",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-034",
+      "target": "asset:asset-002",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-036",
+      "target": "asset:asset-005",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-036",
+      "target": "asset:asset-000",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-039",
+      "target": "asset:asset-034",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-039",
+      "target": "asset:asset-008",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (None)"
+    },
+    {
+      "source": "asset:asset-001",
+      "target": "asset:asset-037",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-001",
+      "target": "asset:asset-007",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-006",
+      "target": "asset:asset-030",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-006",
+      "target": "asset:asset-001",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-007",
+      "target": "asset:asset-006",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-007",
+      "target": "asset:asset-021",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-018",
+      "target": "asset:asset-038",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-018",
+      "target": "asset:asset-032",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-021",
+      "target": "asset:asset-007",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-021",
+      "target": "asset:asset-028",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-028",
+      "target": "asset:asset-030",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-028",
+      "target": "asset:asset-038",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-030",
+      "target": "asset:asset-035",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-030",
+      "target": "asset:asset-006",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-032",
+      "target": "asset:asset-006",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-032",
+      "target": "asset:asset-035",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-035",
+      "target": "asset:asset-032",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-035",
+      "target": "asset:asset-038",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-037",
+      "target": "asset:asset-032",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-037",
+      "target": "asset:asset-021",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-038",
+      "target": "asset:asset-006",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-038",
+      "target": "asset:asset-007",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (azure)"
+    },
+    {
+      "source": "asset:asset-004",
+      "target": "asset:asset-009",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-004",
+      "target": "asset:asset-026",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-009",
+      "target": "asset:asset-011",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-009",
+      "target": "asset:asset-026",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-010",
+      "target": "asset:asset-011",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-010",
+      "target": "asset:asset-014",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-011",
+      "target": "asset:asset-027",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-011",
+      "target": "asset:asset-026",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-014",
+      "target": "asset:asset-009",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-014",
+      "target": "asset:asset-024",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-024",
+      "target": "asset:asset-004",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-024",
+      "target": "asset:asset-009",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-026",
+      "target": "asset:asset-014",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-026",
+      "target": "asset:asset-010",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-027",
+      "target": "asset:asset-009",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    },
+    {
+      "source": "asset:asset-027",
+      "target": "asset:asset-024",
+      "rel": "CONNECTS_TO",
+      "cost": 3.0,
+      "technique": "T1021",
+      "cve": null,
+      "note": "Network reachability (aws)"
+    }
+  ]
+}

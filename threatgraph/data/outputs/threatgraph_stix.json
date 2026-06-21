@@ -1,0 +1,179 @@
+{
+  "type": "bundle",
+  "id": "bundle--055c21b9-443f-4339-8314-67a385c4f534",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "name": "ThreatGraph",
+      "identity_class": "system"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--5a088de1-b5f3-4816-9e08-54923b96ed7c",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "name": "T1003",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1003",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--a4fb7615-b0ce-4ae5-a43b-92de5f9a8b8a",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "name": "T1210",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1210",
+          "url": "https://attack.mitre.org/techniques/T1210/"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--37e152a1-4985-45f4-bafb-e39920c4d339",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 73.8 (likelihood 0.917)",
+      "content": "asset:asset-000 -> user:user-000 via T1003, T1210; 2 hops, cost 2.95.",
+      "object_refs": [
+        "attack-pattern--5a088de1-b5f3-4816-9e08-54923b96ed7c",
+        "attack-pattern--a4fb7615-b0ce-4ae5-a43b-92de5f9a8b8a"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--fbce2706-a7a3-4b76-b7bb-98dcb17a5906",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 73.0 (likelihood 0.874)",
+      "content": "cred:cred-user-005-0 -> asset:asset-039 via T1210; 3 hops, cost 3.4.",
+      "object_refs": [
+        "attack-pattern--a4fb7615-b0ce-4ae5-a43b-92de5f9a8b8a"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--46cd0e08-064e-4de3-b58c-f73a5374e562",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 71.7 (likelihood 0.879)",
+      "content": "asset:asset-000 -> asset:asset-002 via T1210; 2 hops, cost 4.45.",
+      "object_refs": [
+        "attack-pattern--a4fb7615-b0ce-4ae5-a43b-92de5f9a8b8a"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--2b8fadc9-c3a7-4f01-894f-6e0054693ae9",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 70.0 (likelihood 0.822)",
+      "content": "cred:cred-user-018-0 -> asset:asset-020 via access; 1 hops, cost 0.5.",
+      "object_refs": [
+        "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--912e9bfe-5bc0-41e3-bab7-c659d9611261",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 65.9 (likelihood 0.837)",
+      "content": "cred:cred-user-005-0 -> user:user-022 via T1003, T1210; 4 hops, cost 5.4.",
+      "object_refs": [
+        "attack-pattern--5a088de1-b5f3-4816-9e08-54923b96ed7c",
+        "attack-pattern--a4fb7615-b0ce-4ae5-a43b-92de5f9a8b8a"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--0dbaadb0-8a66-4134-abdf-2a163859354a",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 60.0 (likelihood 0.694)",
+      "content": "cred:cred-user-005-0 -> user:user-000 via T1003; 2 hops, cost 2.0.",
+      "object_refs": [
+        "attack-pattern--5a088de1-b5f3-4816-9e08-54923b96ed7c"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--32f189f2-984e-4b4f-82de-7b7355ca414f",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 57.5 (likelihood 0.625)",
+      "content": "asset:asset-019 -> asset:asset-020 via access; 1 hops, cost 3.0.",
+      "object_refs": [
+        "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--3071f1d4-feb7-47be-881d-cbdea64276b7",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 57.5 (likelihood 0.625)",
+      "content": "asset:asset-032 -> asset:asset-039 via access; 1 hops, cost 3.0.",
+      "object_refs": [
+        "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--31e2a9af-039e-4619-9b68-d08fd2995081",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 53.6 (likelihood 0.617)",
+      "content": "cred:cred-user-005-1 -> user:user-014 via T1003; 2 hops, cost 2.5.",
+      "object_refs": [
+        "attack-pattern--5a088de1-b5f3-4816-9e08-54923b96ed7c"
+      ]
+    },
+    {
+      "type": "note",
+      "spec_version": "2.1",
+      "id": "note--d604083d-85ee-42c8-9636-930d42300e91",
+      "created": "2026-06-21T08:14:24.000Z",
+      "modified": "2026-06-21T08:14:24.000Z",
+      "created_by_ref": "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399",
+      "abstract": "Attack path risk 56.7 (likelihood 0.573)",
+      "content": "cred:cred-user-005-0 -> asset:asset-002 via access; 2 hops, cost 3.5.",
+      "object_refs": [
+        "identity--807a7ab6-8ad8-467a-b8de-cd29c31bf399"
+      ]
+    }
+  ]
+}

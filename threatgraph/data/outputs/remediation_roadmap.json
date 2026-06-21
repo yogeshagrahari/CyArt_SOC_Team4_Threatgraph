@@ -1,0 +1,294 @@
+{
+  "generated": "2026-06-21T08:14:24.000Z",
+  "total_actions": 36,
+  "actions": [
+    {
+      "priority": 1,
+      "action": "harden_crown_jewel_access_paths",
+      "target": "user:user-014",
+      "rationale": "user014 (user) is reachable from 4 entry point(s); cheapest traversal cost = 2.5. Reduce exposure by adding network segmentation or MFA on all inbound paths.",
+      "effort": "high",
+      "risk_reduction": 8
+    },
+    {
+      "priority": 2,
+      "action": "patch_vulnerability",
+      "target": "CVE-2017-0144",
+      "rationale": "Patching CVE-2017-0144 breaks 6 attack path(s).",
+      "effort": "medium",
+      "risk_reduction": 6
+    },
+    {
+      "priority": 3,
+      "action": "harden_crown_jewel_access_paths",
+      "target": "user:user-000",
+      "rationale": "da_admin (user) is reachable from 3 entry point(s); cheapest traversal cost = 2.0. Reduce exposure by adding network segmentation or MFA on all inbound paths.",
+      "effort": "high",
+      "risk_reduction": 6
+    },
+    {
+      "priority": 4,
+      "action": "segment_or_isolate",
+      "target": "asset:asset-001",
+      "rationale": "Network-segment app01.corp.local: sits on 4 path(s).",
+      "effort": "medium",
+      "risk_reduction": 4
+    },
+    {
+      "priority": 5,
+      "action": "segment_or_isolate",
+      "target": "asset:asset-004",
+      "rationale": "Network-segment host004.corp.local: sits on 4 path(s).",
+      "effort": "medium",
+      "risk_reduction": 4
+    },
+    {
+      "priority": 6,
+      "action": "harden_crown_jewel_access_paths",
+      "target": "asset:asset-002",
+      "rationale": "db01.corp.local (asset) is reachable from 2 entry point(s); cheapest traversal cost = 3.5. Reduce exposure by adding network segmentation or MFA on all inbound paths.",
+      "effort": "high",
+      "risk_reduction": 4
+    },
+    {
+      "priority": 7,
+      "action": "harden_crown_jewel_access_paths",
+      "target": "asset:asset-020",
+      "rationale": "host020.corp.local (asset) is reachable from 2 entry point(s); cheapest traversal cost = 0.5. Reduce exposure by adding network segmentation or MFA on all inbound paths.",
+      "effort": "high",
+      "risk_reduction": 4
+    },
+    {
+      "priority": 8,
+      "action": "harden_crown_jewel_access_paths",
+      "target": "asset:asset-039",
+      "rationale": "host039.corp.local (asset) is reachable from 2 entry point(s); cheapest traversal cost = 3.0. Reduce exposure by adding network segmentation or MFA on all inbound paths.",
+      "effort": "high",
+      "risk_reduction": 4
+    },
+    {
+      "priority": 9,
+      "action": "close_gap:exposed_vulnerable_asset",
+      "target": "asset:asset-000",
+      "rationale": "web01.corp.local is internet-facing with ['CVE-2021-44228']",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 10,
+      "action": "close_gap:exposed_vulnerable_asset",
+      "target": "asset:asset-012",
+      "rationale": "host012.corp.local is internet-facing with ['CVE-2021-34527', 'CVE-2022-22965']",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 11,
+      "action": "close_gap:exposed_vulnerable_asset",
+      "target": "asset:asset-014",
+      "rationale": "host014.corp.local is internet-facing with ['CVE-2021-34527', 'CVE-2021-44228']",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 12,
+      "action": "close_gap:exposed_vulnerable_asset",
+      "target": "asset:asset-019",
+      "rationale": "host019.corp.local is internet-facing with ['CVE-2018-13379']",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 13,
+      "action": "close_gap:exposed_vulnerable_asset",
+      "target": "asset:asset-022",
+      "rationale": "host022.corp.local is internet-facing with ['CVE-2021-44228', 'CVE-2023-23397']",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 14,
+      "action": "close_gap:exposed_vulnerable_asset",
+      "target": "asset:asset-023",
+      "rationale": "host023.corp.local is internet-facing with ['CVE-2021-34527', 'CVE-2019-0708']",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 15,
+      "action": "close_gap:exposed_vulnerable_asset",
+      "target": "asset:asset-032",
+      "rationale": "host032.corp.local is internet-facing with ['CVE-2019-0708', 'CVE-2023-23397']",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 16,
+      "action": "close_gap:crown_jewel_reachable",
+      "target": "asset:asset-002",
+      "rationale": "reachable from an external entry point",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 17,
+      "action": "close_gap:crown_jewel_reachable",
+      "target": "asset:asset-020",
+      "rationale": "reachable from an external entry point",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 18,
+      "action": "close_gap:crown_jewel_reachable",
+      "target": "asset:asset-039",
+      "rationale": "reachable from an external entry point",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 19,
+      "action": "close_gap:crown_jewel_reachable",
+      "target": "user:user-000",
+      "rationale": "reachable from an external entry point",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 20,
+      "action": "close_gap:crown_jewel_reachable",
+      "target": "user:user-014",
+      "rationale": "reachable from an external entry point",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 21,
+      "action": "close_gap:crown_jewel_reachable",
+      "target": "user:user-022",
+      "rationale": "reachable from an external entry point",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 22,
+      "action": "close_gap:leaked_credential_active",
+      "target": "cred:cred-user-000-0",
+      "rationale": "Credential cred-user-000-0 (type=password, user=user-000) is flagged as leaked on the dark web and must be revoked immediately.",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 23,
+      "action": "close_gap:leaked_credential_active",
+      "target": "cred:cred-user-005-0",
+      "rationale": "Credential cred-user-005-0 (type=password, user=user-005) is flagged as leaked on the dark web and must be revoked immediately.",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 24,
+      "action": "close_gap:leaked_credential_active",
+      "target": "cred:cred-user-005-1",
+      "rationale": "Credential cred-user-005-1 (type=password, user=user-005) is flagged as leaked on the dark web and must be revoked immediately.",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 25,
+      "action": "close_gap:leaked_credential_active",
+      "target": "cred:cred-user-012-0",
+      "rationale": "Credential cred-user-012-0 (type=api_token, user=user-012) is flagged as leaked on the dark web and must be revoked immediately.",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 26,
+      "action": "close_gap:leaked_credential_active",
+      "target": "cred:cred-user-018-0",
+      "rationale": "Credential cred-user-018-0 (type=api_token, user=user-018) is flagged as leaked on the dark web and must be revoked immediately.",
+      "effort": "low",
+      "risk_reduction": 3
+    },
+    {
+      "priority": 27,
+      "action": "close_gap:admin_without_mfa",
+      "target": "user:user-000",
+      "rationale": "da_admin (domain_admin) has no MFA",
+      "effort": "low",
+      "risk_reduction": 2
+    },
+    {
+      "priority": 28,
+      "action": "close_gap:weak_privileged_credential",
+      "target": "user:user-004",
+      "rationale": "user004 holds a weak credential",
+      "effort": "low",
+      "risk_reduction": 2
+    },
+    {
+      "priority": 29,
+      "action": "close_gap:weak_privileged_credential",
+      "target": "user:user-012",
+      "rationale": "user012 holds a weak credential",
+      "effort": "low",
+      "risk_reduction": 2
+    },
+    {
+      "priority": 30,
+      "action": "close_gap:admin_without_mfa",
+      "target": "user:user-022",
+      "rationale": "user022 (admin) has no MFA",
+      "effort": "low",
+      "risk_reduction": 2
+    },
+    {
+      "priority": 31,
+      "action": "segment_or_isolate",
+      "target": "asset:asset-027",
+      "rationale": "Network-segment host027.corp.local: sits on 2 path(s).",
+      "effort": "medium",
+      "risk_reduction": 2
+    },
+    {
+      "priority": 32,
+      "action": "segment_or_isolate",
+      "target": "asset:asset-011",
+      "rationale": "Network-segment host011.corp.local: sits on 2 path(s).",
+      "effort": "medium",
+      "risk_reduction": 2
+    },
+    {
+      "priority": 33,
+      "action": "segment_or_isolate",
+      "target": "asset:asset-039",
+      "rationale": "Network-segment host039.corp.local: sits on 2 path(s).",
+      "effort": "medium",
+      "risk_reduction": 2
+    },
+    {
+      "priority": 34,
+      "action": "segment_or_isolate",
+      "target": "asset:asset-020",
+      "rationale": "Network-segment host020.corp.local: sits on 2 path(s).",
+      "effort": "medium",
+      "risk_reduction": 2
+    },
+    {
+      "priority": 35,
+      "action": "segment_or_isolate",
+      "target": "asset:asset-029",
+      "rationale": "Network-segment host029.corp.local: sits on 1 path(s).",
+      "effort": "medium",
+      "risk_reduction": 1
+    },
+    {
+      "priority": 36,
+      "action": "segment_or_isolate",
+      "target": "asset:asset-034",
+      "rationale": "Network-segment host034.corp.local: sits on 1 path(s).",
+      "effort": "medium",
+      "risk_reduction": 1
+    }
+  ]
+}
