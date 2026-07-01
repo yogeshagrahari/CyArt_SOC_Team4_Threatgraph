@@ -30,6 +30,15 @@ python scripts/run_demo.py          # run all 4 modules end-to-end, write output
 uvicorn module3_ops.api:app --reload   # then open http://127.0.0.1:8000
 python -m pytest -q                 # verify the engine
 ```
+```
+If the venv doesn't exist yet or is broken
+Create a fresh one and install:
+bashcd ~/Desktop/Threatgraph
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
 
 The core (Modules 1, 2, 4) runs on an in-memory NetworkX graph with **only
 `networkx`** installed — no Neo4j, Kafka, or external services required. The API
